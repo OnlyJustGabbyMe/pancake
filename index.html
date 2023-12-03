@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Sito Pancake</title>
+    <link rel="stylesheet" href="pancake.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Il Mio Sito Pancake</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="cargarPagina('home')">Home</a></li>
+            <li><a href="#" onclick="cargarPagina('chiSiamo')">Chi Siamo</a></li>
+            <li><a href="#" onclick="cargarPagina('contatti')">Contatti</a></li>
+        </ul>
+    </nav>
+    <main id="contenuto" class="animated fadeIn">
+        <!-- Il contenuto dinamico verrà caricato qui -->
+    </main>
+    <footer>
+        <p>&copy; 2023 Il Mio Sito Pancake</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="pancake.js"></script>
+</body>
+</html>
